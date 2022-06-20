@@ -1,0 +1,83 @@
+Layered Architecture:
+======================
+
+
+
+		DB<-->Repo/dao layer<--->Service Layer<--->controller layer/UI 
+
+
+Spring Core:
+============
+	light weight ,non-invasive,loosley coupled
+		FrameWorks
+
+			invasive 		:framework which will force to the programmer to implement predefined api
+					Ex:struts
+			non invasive    :framework which will never force to the programmer to implement predefined api
+					Ex:spring,hibernate 
+
+
+Servlet : web applications
+															
+													11		
+					class LoginController extends HttpServlet/GenericServlet/Servlet
+					{
+					
+					
+					}
+					11*100=1100 heavy weight 
+					
+				EJB -->heavy weight component	
+					
+						light weight component
+					
+					rod johnson  -->2003 -->interface 21  ->spring  1.x
+					
+															spring 5.x
+					
+	spring 
+			core,jdbc,orm,security.....
+					
+				
+spring core:/IOC/dependency injection module
+============
+			setter injection		<property>
+			constructor injection	<constructor-arg>
+			autowiring 
+											Configurations
+													XML 
+													Annotation 
+													java 
+											
+			maven
+			
+			spring core 
+			spring context 
+
+		loosley coupled -->container -->		Beanfactory,ApplicationContext 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+					
