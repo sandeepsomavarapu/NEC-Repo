@@ -58,26 +58,94 @@ spring core:/IOC/dependency injection module
 
 
 
+Spring has given annotations for userdefined classes configuration like @component/@Service/@Repository...
+			but not for predefined classes like datasource,transaction....xml/java config
+
+
+	<bean id= class=  autowire scope>
+	<property name  value
+	<constructor-arg ref......
+
+		@Configuration
+		class SpringConfig
+		{
+		@Bean	
+		public Employee getEmployee()
+		{
+				return new Employee();
+		
+		}
+		
+		
+		}
+
+JPA:		bean/entity  table row -->ORM-->hibernate,eclipse link,top link,ibatis ...
+----	
+
+		
+		jpa jars,hibernate jars,mysql
+
+class-->table
+obj-->table row
+variables-->table columns
+ 
+			Employee 		JAVAX.Persistence.*
+
+		EntityManagerFactory  factory=Persistence.getEntityManagerFactory("unitname");
+		
+		EntityManager -->factory.getEntityManager(); methods persist,merge,remove,find,createQuery....
+		
+		
+		persistence.xml
 
 
 
+Spring Boot: spring	 4.x	
 
 
+			production ready applications
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		configuration
 				
+		server
+		
+		dependencies
+
+
+Spring boot
+		
+		1)Auto configuration :most of the commonly used classes already configured by the springboot
+		
+		2)embeded server/internal tomcat
+		
+		3)starters   2  starters dependencies
+		
+		4)Actuators  URL --insite/internals
+
+
+		STS
+
+		Rest API
+		
+		 s--->SOA
+																			 Interoperable
+		webservices is a technology which is used to communicate/share info between applications
+		
+		
+		sbi ATM card   --->icici atm machine ---> sbi app server 
+		
+		
+	AC,S,ES,A							JSON/XML
+SpringBootjpahibernaterestapi        <==========>   POSTMAN
+
+		empolyeecrud
+
+
+		1.x tomcat 
+		2.x hikari
+			c3po
+			combopooled
+			.....
+
 					
